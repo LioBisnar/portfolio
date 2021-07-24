@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: .05rem;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* Top Header CSS */
+.top-header {
+    display: flex;
+}
+
+header {
+    padding: 20px;
+    background-color: rgb(41, 38, 38);
+}
+
+header h1 {
+    flex: 1.8;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+header h1:hover {
+    color: rgb(245, 198, 46);
+    cursor: pointer;
+}
+
+header ul {
+    flex: 2;
+    padding-top: 10px;
+}
+
+header li {
+    display: inline;
+    margin: 0 10px;
+    font-size: 85%;
+}
+
+header a {
+    text-transform: uppercase;
+}
+
+header a:hover {
+    color: rgb(245, 198, 46);
+}
+
+button {
+    flex: .5;
+    margin: 0 5px;
+}
+
+.log-in {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.log-in:hover {
+    color: rgb(245, 198, 46);
+    border: 1px solid rgb(245, 198, 46);
+}
+
+.sign-up {
+    background-color: rgb(245, 198, 46);
+    border: 1px solid rgb(245, 198, 46);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-up:hover {
+   border: 1px solid rgb(255, 255, 255);
+}
+
+/* Showcase Section CSS */
+.showcase-section {
+    text-align: center;
+    padding-top: 150px;
+    height: 100vh;
+    background-image: url('teamwork.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+}
+
+.showcase-section h1 {
+    color: rgb(255, 255, 255);
+    font-size: 500%;
+    text-transform: uppercase;
+}
+
+.showcase-section p {
+    width: 80%;
+    margin: auto;
+}
+
+/* About Section CSS */
+.about-section {
+    height: 70vh;
+    width: 90%;
+    margin: auto;
+}
+
+.about-section h1 {
+    text-transform: uppercase;
+    font-size: 200%;
+    padding-top: 100px;
+}
+
+.about-section h2 {
+    font-size: 450%;
+    padding-top: 60px;
+    color: rgb(44, 44, 44);
+}
+
+.small-font {
+    font-size: 40%;
+    font-weight: lighter;
+}
+
+.about-section p {
+    font-size: 95%;
+    padding-top: 10px;   
+}
+
+.about-section button {
+    margin-top: 50px;
+    padding: 7px 50px;
+    background-color: rgb(245, 198, 46);
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.about-section button:hover {
+    letter-spacing: .5rem;
+}
+
+/* Form Section CSS */
+.form-section {
+    color: #fff;
+    padding: 20px;
+    height: 50vh;
+    border-top: 2px solid rgb(64, 253, 17);
+    background-color: rgb(27, 26, 26);
+}
+
+form {
+    width: 35%;
+    margin: 25px auto;
+}
+
+form label {
+    padding: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+form input[type="text"]:hover,
+form input[type="email"]:hover,
+form input[type="password"]:hover {
+   border: 1px solid rgb(64, 253, 17);
+}
+
+form button {
+    text-transform: uppercase;
+    width: 100%;
+    margin: 20px 10px 10px 10px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(67, 197, 34);
+}
+
+form button:hover {
+    color: #fff;
+}
+
+/* Footer Section CSS */
+footer {
+    height: 15vh;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(63, 63, 63);
+    font-size: 85%;
+}

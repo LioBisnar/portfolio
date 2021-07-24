@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <h1>Portfolio</h1>
+            <ul>
+                <li><a href="/about.ejs">About Me</a></li>
+                <li><a href="/projects.ejs">Projects</a></li>
+                <li><a href="/services.ejs">Services</a></li>
+                <li><a href="/connect.ejs">Connect</a></li>
+            </ul>
+            <button class="log-in">Log in</button>
+            <button class="sign-up">Sign up</button>
+        </div>
+    </header>
+    <section>
+        <div class="showcase-section">
+            <!-- <img src="/image/teamwork.jpg" alt="teamwork"> -->
+            <h1>Let's make it together</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt consequatur veritatis ut doloribus, eos ad quae fugiat assumenda molestias vero. Assumenda ut suscipit eius ipsa cumque excepturi odio aperiam blanditiis!</p>
+        </div>
+        <div class="about-section">
+            <h1>Who I am?</h1>
+            <h2>Hello! <span class="small-font">My name is</span> Lio<span class="small-font">, I am a freelance</span> Website Developer</h2>
+            <p>Aspiring and self-taught web developer focused in building database. Offering front and back-end services.</p>
+            <button>Hire Me!</button>
+        </div>
+        <!-- For Future Use-->
+        <!-- <div class="projects-section">
+
+        </div> -->
+        <div class="form-section">
+                <form action="/registration" method="POST">
+                    <label for="userName">Pick a Username</label><br>
+                    <input id="userName" type="text" autocomplete="off" placeholder="Ex. John101"><br>
+                    <label for="email">Enter your Email address</label><br>
+                    <input id="email" type="email" autocomplete="off" placeholder="Ex. john101@sample.com"><br>
+                    <label for="password">Password</label><br>
+                    <input id="password" type="password" autocomplete="off"><br>
+                    <button>Sign up</button>
+                </form>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &copy; 2021, created by Lio Bisnar</p>
+    </footer>
+</body>
+</html>
